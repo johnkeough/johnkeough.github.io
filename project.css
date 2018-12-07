@@ -24,8 +24,13 @@ p {
     font-size: 1.1vw;
 }
 
-p2 {
+.smalltype {
     font-size: 1vw;
+    line-height: 1.1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: .3vw;
+    padding-bottom: 0px;
 }
 
 a {
