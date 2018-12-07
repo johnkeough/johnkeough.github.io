@@ -5,6 +5,7 @@
         <title>Hailey Hartshorn</title>
 
         <link href="project.css" type="text/css" rel="stylesheet"/>
+        <!--        <link href="fluidbox.min.css" type="text/css" rel="stylesheet"/>-->
 
     </head>
     <body>
@@ -27,6 +28,31 @@
         <!--        image grid-->
 
         <div class="images">
+
+
+
+            <!--
+<div>
+<a class="fb" href="hh_photos/an-ode/ode-2.jpg" title="">
+<img src="hh_photos/an-ode/ode-2.jpg">
+</a>
+</div>
+-->
+
+
+
+            <!--
+<div>
+
+<a href="hh_photos/an-ode/ode-2.jpg" class="fluidbox fluidbox__instance-[i] fluidbox--closed">
+<div class="fluidbox__wrap" style="z-index: 990;">
+<img src="hh_photos/an-ode/ode-2.jpg" alt="" title="" class="fluidbox__thumb" style="opacity: 1;">
+<div class="fluidbox__ghost" style="width: [w]; height: [h]; top: [t]; left: [l];"></div>
+</div>
+</a>
+
+</div>
+-->
 
             <div>
                 <img src="hh_photos/an-ode/ode-2.jpg">
@@ -116,6 +142,21 @@
                 <img src="hh_photos/an-ode/ode-18.jpg">
             </div>
         </div>
+
+
+        <!--        Google-hosted jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+
+        <!--        Fluidbox jQuery-->
+        <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+        <script type="text/javascript" src="jquery.fluidbox.min.js"></script>
+
+        <script type="text/javascript">
+            jQuery(function () {
+                jQuery('a.fb').fluidbox();
+            });
+        </script>
 
     </body>
 
